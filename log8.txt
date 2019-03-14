@@ -1,0 +1,1428 @@
+ID: 1
+EXESTACK:
+v= 10 ;new(a, 22 );fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+v= 10 ;new(a, 22 )
+
+SYMTABLE_1OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+v= 10 ;new(a, 22 )
+
+SYMTABLE_1OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+v= 10 
+
+SYMTABLE_1OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+v= 10 
+
+SYMTABLE_1OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+
+SYMTABLE_1v->10
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+
+SYMTABLE_1v->10
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+wH(a, 30 );v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+wH(a, 30 );v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+wH(a, 30 )
+
+SYMTABLE_10a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_1a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+wH(a, 30 )
+
+SYMTABLE_10a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_1a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+
+SYMTABLE_1a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+v= 32 
+
+SYMTABLE_10a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+v= 32 
+
+SYMTABLE_10a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_10a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_10a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_10a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_10a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_10a->1
+v->32
+OUT:
+10
+30
+32
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_10a->1
+v->32
+OUT:
+10
+30
+32
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+
+SYMTABLE_10a->1
+v->32
+OUT:
+10
+30
+32
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+v= 10 ;new(a, 22 );fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+v= 10 ;new(a, 22 )
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+v= 10 ;new(a, 22 )
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+v= 10 
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+v= 10 
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+
+SYMTABLE_1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+
+SYMTABLE_1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+wH(a, 30 );v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+wH(a, 30 );v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+wH(a, 30 )
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+wH(a, 30 )
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+v= 32 
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+v= 32 
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+32
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+32
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+32
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+v= 10 ;new(a, 22 );fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+v= 10 ;new(a, 22 )
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+v= 10 ;new(a, 22 )
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+v= 10 
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+v= 10 
+
+SYMTABLE_1
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+
+SYMTABLE_1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+new(a, 22 )
+
+SYMTABLE_1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)));print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+fork(wH(a, 30 );v= 32 ;print(v);print(rH(a)))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+wH(a, 30 );v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+wH(a, 30 );v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+wH(a, 30 )
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+wH(a, 30 )
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+
+FILETABLE:
+HEAP:1->22
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+v= 32 ;print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 1
+EXESTACK:
+
+SYMTABLE_1
+a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+v= 32 
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+v= 32 
+
+SYMTABLE_10
+a->1
+v->10
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(v);print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+print(v)
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+32
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+print(rH(a))
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+32
+
+FILETABLE:
+HEAP:1->30
+
+
+
+ID: 10
+EXESTACK:
+
+SYMTABLE_10
+a->1
+v->32
+OUT:
+10
+30
+32
+30
+
+FILETABLE:
+HEAP:1->30
+
+
+
